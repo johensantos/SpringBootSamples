@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<!-- para tymeleafe se tiene que cerrar el meta y poner el utf8 -->
+<title	th:text="'Spring Boot' + ${titulo}"></title>
+</head>
+<body>
+	<h1 th:text="${titulo}"></h1>
+		<table>
+			<thead>
+	  			<tr>
+	    			<th>Id</th>
+	    			<th>Nombre</th>
+	    			<th>Direccion</th>
+	    			<th>Ubigeo</th>
+	    			<th>Telefono</th>
+	    			<th>Correo</th>
+	    			<th>Ruc</th>
+	  			</tr>
+	  		</thead>
+	  		<tbody>  
+	  			<tr th:each="remitente: ${remitentes}">
+	    			<td th:text="${remitente.idRemitente}"></td>
+	    			<td th:text="${remitente.nombreRemitente}"></td>
+	    			<td th:text="${remitente.direccion}"></td>
+	    			<td th:text="${remitente.ubigeo}"></td>
+	    			<td th:text="${remitente.telefono}"></td>
+	    			<td th:text="${remitente.correo}"></td>
+	    			<td th:text="${remitente.ruc}"></td>
+	    			
+	  			</tr>
+	  		</tbody>
+		</table>
+
+</body>
+</html>

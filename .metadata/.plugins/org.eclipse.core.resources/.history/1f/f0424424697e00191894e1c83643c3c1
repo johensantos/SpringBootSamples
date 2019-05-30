@@ -1,0 +1,24 @@
+package com.santos.springboot.app.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.santos.springboot.app.service.IRemitenteService;
+
+@Controller
+public class RemitenteController {
+		
+		@Autowired
+		private IRemitenteService remitenteService;
+	
+		@RequestMapping(value="/listar")
+		public String listar(Model model) {
+			
+			model.addAttribute("titulo",".::Remitentes::.");
+			
+			model.addAttribute("remitentes",remitenteService.findAll());
+			return "listar";
+		}
+}

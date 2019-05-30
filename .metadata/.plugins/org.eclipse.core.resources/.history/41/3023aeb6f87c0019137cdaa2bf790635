@@ -1,0 +1,20 @@
+
+#HABILITA LA CONSOLA H2 /h2-console, la url es jdbc:h2:mem:testdb
+#spring.h2.console.enabled=true
+#Le cambiamos las propiedades a la BD en memoria
+#spring.datasource.url=jdbc:h2:mem:clientesdb
+#spring.datasource.username=johen
+#spring.datasource.password=sa
+#spring.datasource.driver-class-name=org.h2.Driver
+
+
+#Colocar zona horaria en la url
+spring.datasource.url=jdbc:mysql://localhost/db_springboot?serverTimezone=America/Lima
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+logging.level.org.hibernate.SQL=debug
+
+

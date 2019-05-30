@@ -1,0 +1,10 @@
+
+#HABILITA LA CONSOLA H2 /h2-console, la url es jdbc:h2:mem:testdb
+spring.h2.console.enabled=true
+
+#Le cambiamos las propiedades a la BD en memoria
+spring.datasource.url=jdbc:h2:mem:clientesdb
+spring.datasource.username=johen
+spring.datasource.password=sa
+spring.datasource.driver-class-name=org.h2.Driver
+

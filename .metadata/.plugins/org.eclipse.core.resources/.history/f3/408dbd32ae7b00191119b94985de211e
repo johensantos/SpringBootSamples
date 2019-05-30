@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/><!-- para tymeleafe se tiene que cerrar el meta y poner el utf8 -->
+<title th:text="${titulo}"></title>
+</head>
+<body>
+	<h1 th:text="${titulo} "></h1>
+	
+	<h3 th:text="${factura.descripcion} "></h3>
+	<div th:text="${factura.cliente.nombre + ' ' + factura.cliente.apellido} " >Cliente : <span></span></div>
+	<h4>Detalle de la factura</h4>
+	
+	<table>
+	<thead>
+	
+	
+	</thead>
+	<tbody>
+	
+	</tbody>
+	</table>
+	
+</body>
+</html>

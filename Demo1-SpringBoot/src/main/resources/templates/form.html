@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<!-- para tymeleafe se tiene que cerrar el meta y poner el utf8 -->
+<title	th:text="'Spring Boot' + ${titulo}"></title>
+</head>
+<body>
+	<form th:action="@{/form}" th:object="${remitente}" method="post">
+				<label>Nombre</label>
+				<input type="text" th:field="*{nombreRemitente}"/>
+				<br>
+				<label>Direccion</label>
+				<input type="text" th:field="*{direccion}"/>
+				<br>
+				<label>Ubigeo</label>
+				<input type="text" th:field="*{ubigeo}"/>
+				<br>
+				<label>Telefono</label>
+				<input type="text" th:field="*{telefono}"/>
+				<br>
+				<label>Correo</label>
+				<input type="text" th:field="*{correo}"/>
+				<br>
+				<label>Ruc</label>
+				<input type="text" th:field="*{ruc}"/>
+				<input type="hidden" th:field="*{idRemitente}"/>
+				<br>
+				<input type="submit" value="Crear" />
+	</form>
+</body>
+</html>
