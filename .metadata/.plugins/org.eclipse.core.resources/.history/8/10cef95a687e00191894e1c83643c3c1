@@ -1,6 +1,0 @@
---POR DEFECTO HIBERNATE LEE EL ARCHIVO IMPORT.SQL
-INSERT INTO Remitente(nombreRemitente,direccion,ubigeo,telefono,correo,ruc) VALUES('Andres','Guzman blanco n 222','695968','965256985','maurojihen@gmail.com','12347896598');
-
-
-
-

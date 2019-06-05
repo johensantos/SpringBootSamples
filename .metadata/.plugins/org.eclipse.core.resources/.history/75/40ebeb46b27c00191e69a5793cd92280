@@ -1,9 +1,0 @@
-#anotacion de validacion/nombre de la clase en minusculas/nombreatributo
-NotEmpty.cliente.nombre = El nombre del cliente es requerido
-NotEmpty.cliente.apellido = El apellido del cliente es requerido
-NotEmpty.cliente.email = El email del cliente es requerido
-#El email tiene dos validaciones
-Email.cliente.email= La direccion de correo no es valida
-NotNull.cliente.createAt= La fecha no puede ser nula
-#el tipo de dato no coincide
-typeMismatch.cliente.createAt=Formato de fecha invalida, debe ser: yyyy-MM-dd

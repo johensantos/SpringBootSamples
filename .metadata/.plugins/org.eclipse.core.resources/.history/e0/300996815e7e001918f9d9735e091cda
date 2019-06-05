@@ -1,5 +1,0 @@
-package com.santos.springboot.app.entity;
-
-public class Remitente {
-
-}

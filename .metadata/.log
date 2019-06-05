@@ -13062,3 +13062,308 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 19:42:10.929
 !MESSAGE executing callback sts4.classpath.HQayHikK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 21:29:02.003
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQayHikK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 21:29:02.017
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HQayHikK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 21:29:02.032
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 21:29:02.038
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQayHikK => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-05-29 21:38:52.916
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-29 21:38:52.922
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-29 21:38:52.927
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-05-29 21:38:52.932
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+!SESSION 2019-05-31 19:21:32.269 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-31 19:22:23.838
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-05-31 19:22:32.186
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-31 19:22:32.186
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ebfb2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1abf951a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-31 19:22:55.807
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mauro johen'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:26:57.942
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:26:57.948
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5e2525fe[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=1155)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:26:57.955
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:26:58.665
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.416
+!MESSAGE Boot LS startup time from start to initialized: 4225ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.525
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jbGotjTD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.532
+!MESSAGE subscribing to classpath changes: sts4.classpath.jbGotjTD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.553
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.558
+!MESSAGE subsribers = [sts4.classpath.jbGotjTD]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.564
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.571
+!MESSAGE project Demo1-SpringBoot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.576
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.581
+!MESSAGE Preparing classpath changed notification Demo1-SpringBoot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.585
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.595
+!MESSAGE project demospring-boot-web ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.601
+!MESSAGE project spring-boot-data-jpa ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.606
+!MESSAGE project spring-boot-di ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.611
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.616
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.620
+!MESSAGE executing callback sts4.classpath.jbGotjTD Demo1-SpringBoot false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.624
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jbGotjTD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.788
+!MESSAGE executing callback sts4.classpath.jbGotjTD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.793
+!MESSAGE Preparing classpath changed notification spring-boot-di
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.813
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.819
+!MESSAGE executing callback sts4.classpath.jbGotjTD spring-boot-di false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.832
+!MESSAGE executing callback sts4.classpath.jbGotjTD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.838
+!MESSAGE Preparing classpath changed notification spring-boot-data-jpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.843
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.857
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.862
+!MESSAGE executing callback sts4.classpath.jbGotjTD spring-boot-data-jpa false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.882
+!MESSAGE executing callback sts4.classpath.jbGotjTD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.889
+!MESSAGE Preparing classpath changed notification demospring-boot-web
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.894
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.905
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.910
+!MESSAGE executing callback sts4.classpath.jbGotjTD demospring-boot-web false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:29:41.942
+!MESSAGE executing callback sts4.classpath.jbGotjTD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:35:37.323
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jbGotjTD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:35:37.330
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jbGotjTD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:35:37.335
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:35:37.341
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jbGotjTD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:13.968
+!MESSAGE Boot LS startup time from start to initialized: 4028ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:13.995
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UBIlHqcQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.001
+!MESSAGE subscribing to classpath changes: sts4.classpath.UBIlHqcQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.008
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.013
+!MESSAGE subsribers = [sts4.classpath.UBIlHqcQ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.019
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.024
+!MESSAGE project Demo1-SpringBoot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.031
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.035
+!MESSAGE Preparing classpath changed notification Demo1-SpringBoot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.041
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.045
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.050
+!MESSAGE project demospring-boot-web ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.060
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.066
+!MESSAGE project spring-boot-data-jpa ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.070
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ Demo1-SpringBoot false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.075
+!MESSAGE project spring-boot-di ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.102
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.108
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UBIlHqcQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.193
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.199
+!MESSAGE Preparing classpath changed notification spring-boot-di
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.205
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.216
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.222
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ spring-boot-di false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.235
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.243
+!MESSAGE Preparing classpath changed notification spring-boot-data-jpa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.249
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.267
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.273
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ spring-boot-data-jpa false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.286
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.296
+!MESSAGE Preparing classpath changed notification demospring-boot-web
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.314
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.331
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.341
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ demospring-boot-web false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:37:14.401
+!MESSAGE executing callback sts4.classpath.UBIlHqcQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:47:26.112
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UBIlHqcQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:47:26.158
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UBIlHqcQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:47:26.184
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-31 19:47:26.205
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UBIlHqcQ => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-05-31 19:47:29.408
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1

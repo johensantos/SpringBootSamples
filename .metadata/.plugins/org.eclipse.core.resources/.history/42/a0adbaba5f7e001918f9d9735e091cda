@@ -1,5 +1,0 @@
-package com.santos.springboot.app.dao;
-
-public class ClienteDao {
-
-}

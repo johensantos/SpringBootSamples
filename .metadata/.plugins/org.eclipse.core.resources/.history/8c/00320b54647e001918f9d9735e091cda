@@ -1,5 +1,0 @@
-package com.santos.springboot.app.controllers;
-
-public class RemitenteController {
-
-}

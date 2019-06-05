@@ -1,2 +1,0 @@
-#HABILITA LA CONSOLA H2 /h2-console, la url es jdbc:h2:mem:testdb
-spring.h2.console.enabled=true
