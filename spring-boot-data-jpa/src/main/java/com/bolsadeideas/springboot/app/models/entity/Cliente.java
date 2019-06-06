@@ -40,6 +40,8 @@ public class Cliente implements Serializable{
 	@Temporal(TemporalType.DATE)
 	@DateTimeFormat(pattern = "yyyy-MM-dd") //le da un formato a la fecha
 	private Date createAt;
+
+	private String foto;
 	
 	/* para que agregue la fecha antes de crear el objeto
 	@PrePersist
@@ -90,11 +92,12 @@ public class Cliente implements Serializable{
 		this.createAt = createAt;
 	}
 
-	
-	
-	
-	
-	
 
+	public String getFoto() {
+		return foto;
+	}
 
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
 }
