@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+
+</head>
+<body>
+    <header th:replace="layout/layout :: header"></header>
+    <h1 >LISTADO DE CATEGORIAS</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="categoria: ${categorias}">
+                <td> </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+<footer th:replace=" layout/layout ::footer" ></footer>
+</body>
+
+</html>
